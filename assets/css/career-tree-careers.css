@@ -106,7 +106,7 @@ body {
 
 .grid-layout-1 {
     display: grid;
-    grid-template-columns: repeat(3, 9%) 1fr;
+    grid-template-columns: repeat(3, 9%) 73%;
     grid-template-rows: repeat(2, auto) 1fr;
 }
 
@@ -144,7 +144,8 @@ body {
     border-style: none;
     border-radius: 10px;
     line-height: 3em;
-    padding: 6%;
+    padding: 4%;
+    padding-top: 6%;
 }
 
 .accent {
