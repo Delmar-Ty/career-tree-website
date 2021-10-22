@@ -4,9 +4,21 @@
     }
 }
 
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 0.75em;
+    }
+}
+
 @media screen and (max-width: 220px) {
     body {
         font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 100px) {
+    body {
+        font-size: 0.25em;
     }
 }
 
@@ -145,8 +157,6 @@ body {
     justify-content: center;
     align-items: center;
     width: 90%;
-    min-width: 300px;
-    min-height: 75px;
     margin: auto;
     margin-top: 5%;
     background-image: linear-gradient(to bottom right, rgb(0, 48, 255), rgb(0, 178, 190));
